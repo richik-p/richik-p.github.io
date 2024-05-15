@@ -8,11 +8,8 @@ middle_name:
 last_name: Pal
 email: richik.pal@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Welcome to Richik Pal's personal website. 
+footer_text: > 
 keywords: neurobiology, artificial intelligence, machine learning, brain computer interfaces  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: website_icon.png # ⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -75,10 +72,10 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: richik-p # your GitHub user name
-gitlab_username: richik-p # your GitLab user name
+gitlab_username: #richik-p # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: richroxs # your instagram id
-kaggle_id: richikpal # your kaggle id
+kaggle_id: #richikpal # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -104,11 +101,11 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: richikpal6231 # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: #richikpal6231 # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Hey there fellow web surfer! Welcome to my website.
+  Hey fellow web surfer! Welcome to my website.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
