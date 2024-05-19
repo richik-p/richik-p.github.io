@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: # anything below my name on the home page
 
 profile:
   align: right
@@ -18,4 +18,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<include about_richik.md>
+<include ./_pages//about_richik.md>
