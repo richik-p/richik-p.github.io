@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - richik-p
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - NoonanLab/Pal_et_al_HAR_interactome
+  - berkeleyauv/perception
+  - omijimo/texify
+  
