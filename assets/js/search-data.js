@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/cv.pdf";
           },
-        },{id: "post-",
+        },{id: "post-resources-for-cs189-machine-learning-at-ucb",
       
-        title: "",
+        title: "Resources for CS189: Machine Learning at UCB",
       
-      description: "",
+      description: "Resources and notes for CS189: Machine Learning",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2025-01-18-cs189/";
+          window.location.href = "/blog/2025/cs189/";
         
       },
     },{id: "post-bottle-bricking-and-five-life-lessons-i-learned-while-trekking-in-the-himalayas",
