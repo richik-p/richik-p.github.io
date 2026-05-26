@@ -205,7 +205,10 @@ let setPlotlyTheme = (theme) => {
       // if jsonData.layout exists, then update the theme
       if (jsonData.layout) {
         if (jsonData.layout.template) {
-          jsonData.layout.template = { ...plotlyDarkLayout, ...jsonData.layout.template };
+          jsonData.layout.template = {
+            ...plotlyDarkLayout,
+            ...jsonData.layout.template,
+          };
         } else {
           jsonData.layout.template = plotlyDarkLayout;
         }
@@ -220,7 +223,10 @@ let setPlotlyTheme = (theme) => {
       // if jsonData.layout exists, then update the theme
       if (jsonData.layout) {
         if (jsonData.layout.template) {
-          jsonData.layout.template = { ...plotlyLightLayout, ...jsonData.layout.template };
+          jsonData.layout.template = {
+            ...plotlyLightLayout,
+            ...jsonData.layout.template,
+          };
         } else {
           jsonData.layout.template = plotlyLightLayout;
         }
@@ -342,6 +348,9 @@ let getCalendarUrl = (calendarId, timezone = "UTC") => {
 let updateCalendarUrl = () => {
   const iframe = document.getElementById("calendar-iframe");
   if (iframe && iframe.dataset.calendarId) {
-    iframe.src = getCalendarUrl(iframe.dataset.calendarId, iframe.dataset.timezone || "UTC");
+    iframe.src = getCalendarUrl(
+      iframe.dataset.calendarId,
+      iframe.dataset.timezone || "UTC",
+    );
   }
 };
