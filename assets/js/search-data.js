@@ -31,28 +31,28 @@ ninja.data = [{
             window.location.href = "/assets/pdf/cv.pdf";
           },
         },{id: "post-resources-for-cs189-machine-learning-at-ucb",
-      
-        title: "Resources for CS189: Machine Learning at UCB",
-      
-      description: "Resources and notes for CS189: Machine Learning",
-      section: "Posts",
-      handler: () => {
         
-          window.location.href = "/blog/2025/cs189/";
+          title: "Resources for CS189: Machine Learning at UCB",
         
-      },
-    },{id: "post-bottle-bricking-and-five-life-lessons-i-learned-while-trekking-in-the-himalayas",
-      
-        title: 'Bottle Bricking and Five Life Lessons I Learned While Trekking in the Himalayas... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "Resources and notes for CS189: Machine Learning",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/cs189/";
+          
+        },
+      },{id: "post-just-a-moment",
         
-          window.open("https://indiahikes.com/blog/bottle-bricking-and-life-lessons-from-treks", "_blank");
+          title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://indiahikes.com/blog/bottle-bricking-and-life-lessons-from-treks", "_blank");
+          
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -86,6 +86,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0009-0000-0245-6835", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
