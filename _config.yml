@@ -211,9 +211,7 @@ exclude:
   - readme_preview/
   - vendor
   - _news/
-  - _projects/
   - _books/
-  - _pages/projects.md
   - _pages/people.md
   - _pages/bookshelf.md
   - _data/coauthors.yml
