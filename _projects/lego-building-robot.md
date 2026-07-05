@@ -22,6 +22,16 @@ My strongest contributions were the low-light perception pipeline, perception-to
 - MoveIt-based inverse kinematics and pick-and-place execution.
 - Custom block hardware iterated across four versions for reliable stacking.
 
+**Visuals**
+
+{% include figure.liquid path="assets/img/projects/lego-building-robot/arm-placing-block.png" alt="UR5 arm placing a custom block" caption="UR5 arm executing a block pick-and-place motion." zoomable=true max-width="520px" %}
+
+{% include figure.liquid path="assets/img/projects/lego-building-robot/system-design-flow.png" alt="System design flow from calibration through perception and pick-and-place" caption="System flow connecting calibration, camera transforms, block detection, and pick-and-place." zoomable=true %}
+
+{% include figure.liquid path="assets/img/projects/lego-building-robot/vision-pipeline-stages.png" alt="Vision pipeline stages for low-light block detection" caption="Vision pipeline stages for low-light block detection." zoomable=true %}
+
+{% include figure.liquid path="assets/img/projects/lego-building-robot/block-detection-results.png" alt="Small and long block detection results" caption="Small and long block selection from the same camera view." zoomable=true %}
+
 **Links**
 
 - [Project introduction](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/introduction?authuser=1)
@@ -34,5 +44,5 @@ My strongest contributions were the low-light perception pipeline, perception-to
 - [Materials](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/materials?pli=1&authuser=1)
 - [Code](https://github.com/richik-p/EE106A-Final_Project/tree/main/version3)
 - [Final presentation](https://docs.google.com/presentation/d/1cvH4WOISAxEX5BtmfJm6d7vw5XA-tv5ruMyV1taAKrY/present)
-- [Demo video](https://drive.google.com/file/d/1Y4NA1avS0UT6eJBU93MbCYA1K_WT1JK4/preview?authuser=1)
+- [Demo video](https://drive.google.com/file/d/1Y4NA1avS0UT6eJBU93MbCYA1K_WT1JK4/view?usp=drive_link)
 - [Block STL file](https://drive.google.com/file/d/1o7Qx20QkGyly7AWYR8RDs_FDoTMvQ_fV/view?usp=sharing)
