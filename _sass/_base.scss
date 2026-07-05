@@ -167,6 +167,18 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+.project-gallery {
+  figure {
+    margin: 1.5rem 0 2rem;
+  }
+
+  .caption {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+}
+
 // Card
 
 .card {
