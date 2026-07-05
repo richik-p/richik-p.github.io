@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-projects",
+          title: "Projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
@@ -28,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/cv.pdf";
+            window.location.href = "/cv/";
           },
         },{id: "post-resources-for-cs189-machine-learning-at-ucb",
         
@@ -52,7 +59,12 @@ ninja.data = [{
             window.open("https://indiahikes.com/blog/bottle-bricking-and-life-lessons-from-treks", "_blank");
           
         },
-      },{
+      },{id: "projects-lego-building-robot",
+          title: 'LEGO Building Robot',
+          description: "End-to-end robot arm system for detecting, picking, and stacking custom LEGO-style blocks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lego-building-robot/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
