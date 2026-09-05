@@ -36,15 +36,4 @@ My strongest contributions were the low-light perception pipeline, perception-to
 
 **Links**
 
-- [Project introduction](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/introduction?authuser=1)
-- [Design](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/design?authuser=1)
-- [Implementation](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/implementation?authuser=1)
-- [Block design](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/implementation/block-design?authuser=1)
-- [Block detection](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/implementation/block-detection?authuser=1)
-- [Software processes](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/implementation/software-processes?authuser=1)
-- [Results](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/results?authuser=1)
-- [Materials](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website/materials?pli=1&authuser=1)
-- [Code](https://github.com/richik-p/EE106A-Final_Project/)
-- [Final presentation](https://docs.google.com/presentation/d/1cvH4WOISAxEX5BtmfJm6d7vw5XA-tv5ruMyV1taAKrY/present)
-- [Demo video](https://drive.google.com/file/d/1Y4NA1avS0UT6eJBU93MbCYA1K_WT1JK4/view?usp=drive_link)
-- [Block STL file](https://drive.google.com/file/d/1o7Qx20QkGyly7AWYR8RDs_FDoTMvQ_fV/view?usp=sharing)
+- [Project website](https://sites.google.com/berkeley.edu/106a-fa25-group-25-website)
