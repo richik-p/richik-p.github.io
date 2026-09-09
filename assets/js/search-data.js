@@ -59,11 +59,41 @@ ninja.data = [{
             window.open("https://indiahikes.com/blog/bottle-bricking-and-life-lessons-from-treks", "_blank");
           
         },
-      },{id: "projects-lego-building-robot",
+      },{id: "projects-aangan",
+          title: 'Aangan',
+          description: "Interior design tool for measured Indian rooms and verified products.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aangan/";
+            },},{id: "projects-deepground-ai-studio",
+          title: 'DeepGround AI Studio',
+          description: "Voice front desk for HVAC and plumbing businesses.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/deepground-ai/";
+            },},{id: "projects-lego-building-robot",
           title: 'LEGO Building Robot',
           description: "End-to-end robot arm system for detecting, picking, and stacking custom LEGO-style blocks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lego-building-robot/";
+            },},{id: "projects-naia",
+          title: 'Naia',
+          description: "Foundational language infrastructure for Indian languages.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/naia/";
+            },},{id: "projects-neural-holo",
+          title: 'Neural-Holo',
+          description: "Real-time holographic imaging with depth estimation and computational optics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neural-holo/";
+            },},{id: "projects-restaurantier",
+          title: 'Restaurantier',
+          description: "Menu-cost and pricing tool for restaurants.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/restaurantier/";
+            },},{id: "projects-verilab",
+          title: 'Verilab',
+          description: "Clinical lab autoverification software that releases normal results and holds exceptions for review.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/verilab/";
             },},{
         id: 'social-email',
         title: 'email',
