@@ -96,7 +96,7 @@ ninja.data = [{
               window.location.href = "/projects/verilab/";
             },},{id: "projects-halcyonai-virtual-cell-challenge-2026",
           title: 'HalcyonAI: Virtual Cell Challenge 2026',
-          description: "A virtual cell model that predicts CRISPRi knockdown responses in unseen cell lines. 11th of 1,500+ teams.",
+          description: "A virtual AI model of a cell, built without large-scale private data. 11th of 1,500+ teams.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/virtual-cell-challenge/";
             },},{
