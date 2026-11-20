@@ -48,9 +48,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/cs189/";
           
         },
-      },{id: "post-just-a-moment",
+      },{id: "post-bottle-bricking-and-five-life-lessons-i-learned-while-trekking-in-the-himalayas",
         
-          title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Bottle Bricking and Five Life Lessons I Learned While Trekking in the Himalayas... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "",
         section: "Posts",
@@ -94,6 +94,11 @@ ninja.data = [{
           description: "Clinical lab autoverification software that releases normal results and holds exceptions for review.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/verilab/";
+            },},{id: "projects-halcyonai-virtual-cell-challenge-2026",
+          title: 'HalcyonAI: Virtual Cell Challenge 2026',
+          description: "A virtual cell model that predicts CRISPRi knockdown responses in unseen cell lines. 11th of 1,500+ teams.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/virtual-cell-challenge/";
             },},{
         id: 'social-email',
         title: 'email',
