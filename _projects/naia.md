@@ -2,8 +2,9 @@
 layout: page
 title: Naia
 description: Foundational language infrastructure for Indian languages.
-importance: 3
+importance: 6
 category: ai
+tags: [Indic Languages, Language Models, Datasets]
 ---
 
 Naia focuses on Indian language models and datasets built without using English as the default middle layer.

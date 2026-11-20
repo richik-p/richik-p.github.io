@@ -2,8 +2,10 @@
 layout: page
 title: Aangan
 description: Interior design tool for measured Indian rooms and verified products.
-importance: 6
+img: assets/img/projects/aangan.png
+importance: 9
 category: ai
+tags: [Interior Design, 3D Planning, Commerce]
 ---
 
 Aangan helps design measured Indian rooms with real products and a transparent purchase plan.

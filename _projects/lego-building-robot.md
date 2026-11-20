@@ -1,10 +1,14 @@
 ---
 layout: page
-title: LEGO Building Robot
+title: LEGO Building 7-DOF Robot Arm
 description: End-to-end robot arm system for detecting, picking, and stacking custom LEGO-style blocks.
 img: assets/img/projects/lego-building-robot.png
-importance: 1
+importance: 2
 category: robotics
+featured: true
+featured_order: 2
+tags: [Robotics, Computer Vision, ROS 2]
+highlight: End-to-end perception-to-action system
 github: https://github.com/richik-p/EE106A-Final_Project/
 ---
 
@@ -32,6 +36,7 @@ My strongest contributions were the low-light perception pipeline, perception-to
 {% include figure.liquid path="assets/img/projects/lego-building-robot/vision-pipeline-stages.png" alt="Vision pipeline stages for low-light block detection" caption="Vision pipeline stages for low-light block detection." zoomable=true %}
 
 {% include figure.liquid path="assets/img/projects/lego-building-robot/block-detection-results.png" alt="Small and long block detection results" caption="Small and long block selection from the same camera view." zoomable=true %}
+
 </div>
 
 **Links**

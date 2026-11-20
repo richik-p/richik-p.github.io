@@ -2,8 +2,10 @@
 layout: page
 title: Verilab
 description: Clinical lab autoverification software that releases normal results and holds exceptions for review.
-importance: 2
+img: assets/img/projects/verilab.png
+importance: 5
 category: systems
+tags: [Healthcare, Automation, Auditability]
 ---
 
 Verilab checks clinical laboratory results before release. Normal panels can move through automatically, while exceptions are held with a reason attached.

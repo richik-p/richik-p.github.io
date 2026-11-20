@@ -1,0 +1,30 @@
+{% assign project_url = project.url | relative_url %}
+{% if project.redirect %}
+  {% assign project_url = project.redirect %}
+{% endif %}
+{% assign image_alt = project.title | append: ' project preview' %}
+
+<article class="featured-project-card">
+  <a class="featured-project-link" href="{{ project_url }}">
+    {% if project.img %}
+      <div class="featured-project-media">
+        {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 42vw, 100vw" alt=image_alt class="featured-project-image" %}
+      </div>
+    {% endif %}
+    <div class="featured-project-content">
+      {% if project.tags %}
+        <div class="project-labels" aria-label="Project topics">
+          {% for tag in project.tags %}
+            <span class="project-label">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <h3 class="card-title">{{ project.title }}</h3>
+      <p class="card-text">{{ project.description }}</p>
+      {% if project.highlight %}
+        <p class="project-highlight">{{ project.highlight }}</p>
+      {% endif %}
+      <span class="project-view-link">View project</span>
+    </div>
+  </a>
+</article>

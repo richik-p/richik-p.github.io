@@ -2,8 +2,10 @@
 layout: page
 title: Neural-Holo
 description: Real-time holographic imaging with depth estimation and computational optics.
-importance: 2
+importance: 4
 category: ai
+tags: [Computer Vision, Computational Optics, Hardware]
+highlight: UC Berkeley AI Hackathon 2026
 ---
 
 Neural-Holo turns live camera input into depth maps and holographic phase patterns for projection through a spatial light modulator.

@@ -2,8 +2,10 @@
 layout: page
 title: Restaurantier
 description: Menu-cost and pricing tool for restaurants.
-importance: 5
+img: assets/img/projects/restaurantier.png
+importance: 8
 category: ai
+tags: [Restaurant Operations, Pricing]
 ---
 
 Restaurantier scans menus, calculates food cost percentage for dishes, and points out pricing changes with dollar impact.
