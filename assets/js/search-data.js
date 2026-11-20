@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Selected work across AI, robotics, systems, and computational biology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -64,13 +64,18 @@ ninja.data = [{
           description: "Interior design tool for measured Indian rooms and verified products.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aangan/";
+            },},{id: "projects-agenttrace",
+          title: 'AgentTrace',
+          description: "Structured observability and root-cause analysis for failures in multi-agent systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agenttrace/";
             },},{id: "projects-deepground-ai-studio",
           title: 'DeepGround AI Studio',
           description: "Voice front desk for HVAC and plumbing businesses.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/deepground-ai/";
-            },},{id: "projects-lego-building-robot",
-          title: 'LEGO Building Robot',
+            },},{id: "projects-lego-building-7-dof-robot-arm",
+          title: 'LEGO Building 7-DOF Robot Arm',
           description: "End-to-end robot arm system for detecting, picking, and stacking custom LEGO-style blocks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lego-building-robot/";
